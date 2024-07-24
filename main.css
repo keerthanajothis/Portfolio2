@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px 0;
+}
+
+.box .links {
+    margin: 0 15px;
+}
+
+.box .links a {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box .links a:hover {
+    text-decoration: underline;
+}
+
+.photo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.photo img {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    margin: 100px;
+    margin-left:300px;
+    margin-right:300px;
+    border-radius: 40px;
+}
+
+section hr {
+    border: 1px solid #cccccc58;
+    margin: 50px 0;
+}
+
+section .b {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.about p, .skills ul, .contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills ul li {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.contact h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #333;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.image-section .about-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certifications ul {
+    list-style-type: none;
+}
+
+.certifications ul li {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.certifications a {
+    color: #333; /* Use the same color as the surrounding text */
+    text-decoration: none;
+}
+
+.certifications a:hover {
+    text-decoration: underline;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li {
+    padding: 10px 0;
+    font-size: 18px;
+}
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
