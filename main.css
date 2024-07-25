@@ -160,3 +160,51 @@ section .b {
 .resume-button:hover {
     background-color: #0056b3;
 }
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+    }
+
+    section {
+        margin: 50px 20px;
+        padding: 20px;
+    }
+
+    .section .b {
+        font-size: 28px;
+    }
+
+    .about p, .skills ul, .contact p {
+        font-size: 16px;
+    }
+
+    .resume-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .box .links a {
+        font-size: 18px;
+    }
+
+    section {
+        margin: 30px 10px;
+        padding: 15px;
+    }
+
+    .section .b {
+        font-size: 24px;
+    }
+
+    .about p, .skills ul, .contact p {
+        font-size: 14px;
+    }
+
+    .resume-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
